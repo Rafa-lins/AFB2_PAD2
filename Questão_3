@@ -1,0 +1,11 @@
+function calculator(val1,val2)
+    {
+        return function(callback)
+        {
+            return callback(val1,val2);
+        };
+    }
+
+    var sum = calculator(1,2);
+
+    sum(function (val1, val2) { return val1 + val2 });
