@@ -1,4 +1,0 @@
-//Q3 
-function calculator(n1, n2) {
-  return callback => callback(n1, n2)
-}
